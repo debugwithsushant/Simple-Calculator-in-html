@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Script.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+<div class="calculator">
+    <input type="text" id="num" readonly><br><br>
+    <input type="text" id="ans" readonly><br><br><br>
+
+    <input type="button" value="C" onclick="clearfun()">
+    <input type="button" value="X" onclick="deletefun()">
+    <input type="button" value="%" onclick="operationfun('%')">
+    <input type="button" value="*" onclick="operationfun('*')"><br><br>
+    
+    
+    <input type="button" value="7" onclick="operendfun('7')">
+    <input type="button" value="8" onclick="operendfun('8')">
+    <input type="button" value="9" onclick="operendfun('9')">
+    <input type="button" value="/" onclick="operationfun('/')"><br><br>
+    
+    
+    <input type="button" value="4" onclick="operendfun('4')">
+    <input type="button" value="5" onclick="operendfun('5')">
+    <input type="button" value="6" onclick="operendfun('6')">
+    <input type="button" value="-" onclick="operationfun('-')"><br><br>
+    
+    
+    <input type="button" value="1" onclick="operendfun('1')">
+    <input type="button" value="2" onclick="operendfun('2')">
+    <input type="button" value="3" onclick="operendfun('3')">
+    <input type="button" value="+" onclick="operationfun('+')"><br><br>
+    
+    
+    <input type="button" value="00" onclick="operendfun('00')">
+    <input type="button" value="0" onclick="operendfun('0')">
+    <input type="button" value="." onclick="operendfun('.')">
+    <input type="button" value="=" onclick="calculate()">
+</div>
+</body>
+</html>
